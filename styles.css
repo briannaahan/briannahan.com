@@ -1,15 +1,19 @@
 h1 {
     color: #ffffff;
+    font-family: 'EB Garamond', serif;
   }
   
   p {
     color: #ffffff;
+    font-family: 'EB Garamond', serif;
   }
   
   a {
     color: #007bff;
+    font-family: 'EB Garamond', serif;
   }
   
   a:hover {
     color: #0056b3;
+    font-family: 'EB Garamond', serif;
   }
