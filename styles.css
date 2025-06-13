@@ -20,14 +20,14 @@ a {
 .background-home {
   width: 100%;
   height: 100vh;
-  background-image: url('images/100_0046.jpg');
+  background-image: url('images/100_0065.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   display: block;
   overflow: hidden;
-  /* animation: change 10s infinite ease-in-out; */
+  animation: change 10s infinite ease-in-out;
 }
 
 .home-content {
@@ -74,25 +74,25 @@ a {
   text-align: center;
 }
 
-/* @keyframes change {
+@keyframes change {
   0%
   {
-    background-image: url('images/100_0046.jpg')
+    background-image: url('images/100_0065.jpg')
   }
   40%
   {
-    background-image: url('images/100_0065.JPG')
+    background-image: url('images/100_0065.jpg')
   }
   50%
   {
-    background-image: url('/images/100_0046.jpg')
+    background-image: url('images/100_0046.JPG')
   }
   90%
   {
-    background-image: url('images/100_0046.jpg')
+    background-image: url('images/100_0046.JPG')
   }
   100%
   {
-    background-image: url('images/100_0065.JPG')
-  } */
+    background-image: url('images/100_0065.jpg')
+  }
 }
