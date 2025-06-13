@@ -1,8 +1,11 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
 a {
   color: #007bff;
   font-family: 'EB Garamond', serif;
-  }
-  
+  } 
 a:hover {
   color: #0056b3;
   font-family: 'EB Garamond', serif;
