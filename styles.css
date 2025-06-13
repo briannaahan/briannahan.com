@@ -27,6 +27,7 @@ a {
   background-repeat: no-repeat;
   display: block;
   overflow: hidden;
+  animation: change 10s infinite ease-in-out;
 }
 
 .home-content {
@@ -71,4 +72,27 @@ a {
 
 .navigation {
   text-align: center;
+}
+
+@keyframes change {
+  0%
+  {
+    background-image: url('images/100_0065.JPG')
+  }
+  40%
+  {
+    background-image: url('images/100_0065.JPG')
+  }
+  50%
+  {
+    background-image: url('images/100_0046.jpg')
+  }
+  90%
+  {
+    background-image: url('images/100_0046.jpg')
+  }
+  100%
+  {
+    background-image: url('images/100_0065.JPG')
+  }
 }
